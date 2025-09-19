@@ -14,6 +14,7 @@ class WhatsAppController extends Controller
         $this->whatsapp = $whatsapp;
     }
 
+  
     public function send(Request $request)
     {
         $request->validate([
